@@ -1,0 +1,113 @@
+$Pale-blue: hsl(225, 100%, 94%);
+$Bright-blue: hsl(245, 75%, 52%);
+$Very-pal-blue: hsl(225, 100%, 98%);
+$Desaturated-blue: hsl(224, 23%, 55%);
+$Dark-blue: hsl(223, 47%, 23%);
+* {
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color:$Pale-blue;
+}
+.card{
+    background-color: white;
+    width: 350px;
+    height: 550px;
+    
+    border-radius: 20px;
+    h1{
+        font-size: 32px;
+        font-weight: 700;
+        font-family:"Red Hat Display" ;
+        color: $Dark-blue;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    p{
+        font-weight: 500;
+        font-family:"Red Hat Display" ;
+        color: $Desaturated-blue;
+        text-align:center;
+        padding-bottom: 20px;
+    }
+    .main-img{
+        width: 350px;
+        height: 170px;
+        border-radius: 20px 20px 0px 0px;
+    }
+}
+p{
+    font-size: 16px;
+}
+.panel{
+    padding: 25px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.plan{
+    padding: 15px;
+    background-color: $Very-pal-blue;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    img{
+        width: 40px;
+        height: 40px;
+        padding-right: 20px;
+    }
+    p{
+        padding-bottom: 0px;
+    }
+    a{
+        font-family: "Red Hat Display";
+        font-size: 14px;
+        color: $Bright-blue;
+    }
+    h3{
+        font-size: 16px;
+        font-family:"Red Hat Display" ;
+        font-weight: 700;
+    }
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.proceed{
+    background-color: $Bright-blue;
+    padding: 10px 60px 10px 60px ;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 5px 10px 10px #888888;
+}
+.button{
+    a{
+        text-align: center;
+        font-family:"Red Hat Display" ;
+        font-weight: 600;
+        color: $Desaturated-blue;
+    }
+}
